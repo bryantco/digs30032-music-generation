@@ -387,6 +387,7 @@ def main():
             print(''.join(generate_tune(model_use, tune_start, 200)))
     else:
         print('Model not found! Running train-test loop...')
+        run_tr_test()
 
 if __name__ == '__main__':
     main()  
