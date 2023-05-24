@@ -1,0 +1,44 @@
+/home/bryantco/final_project_midway/final_project.py:305: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  top_token_idx = torch.multinomial(F.softmax(logits), num_samples=1).item()
+Is GPU available? True
+Model found! Loading...
+M:1/4L:1/4K:AAAA|"(3|G\"GGm/2GB/2B/2d/2B/2fB/2c/2|G/2|G/2eA/2B|/2A|A/2G/2||||B/2d/2c/2A/2|A/2/23/2/23/2:D|/4:1/4L:A/2G/2f/2K:c/2F/2c/4:c/2c/23/2/2/2c/2d3/2c/4K:A/2|d/2A/2"G/2B/2B/2c/2|c/2c/4L:A|/2E/2d|
+M:4/4K:D|/2Em"c/2B/2c/2A/2A/2FE/2A/2C/2F/2E/2B/2E/2"G/2E/2E/2|C/2f/2G/2B/2|c/2A/2d/2|/2/2/2/2/2/2B/2/2d/2c/2-/2c/2/2A/2/2f/2/23/2/2/2c/2/2/2d/2/2]B/2|A/2c/2E/2d/2A/2B/2G]6/2|f/2"G/4L:c/2B|/2A/2A/4B/2dB/2c/2D/
+M:3/4K:D7"BAD|DA|2Bo2E7"f|2g2||Af2||g|2f||||dB4|]G|||"B||:_"A7"ecAd|c2B|||A|Gd|d|e|g|2dg|||2BccB|||BA||c|||e||||fB||||||e|dAGd||||#"D[Gdd||dF^ed|||"A||cBBcd|||d|||f|||2c]G|B|||"A|2ed||/2:G||||||2cf||||
+M:4/4K:D||Ae/2e/4=c/2||A/2d/2d/2B/2f/4e/2G/2:G/4]A/2|b/2B/2"C3/2d"F/2A/4:B/4|-|A/2B/2A/4L:A/2^B/4:1/4K:c/2G/4/4K:B/2c/2c/2(6/4L:F/4)/23/23/4K:c/83/2:F/4K:||G/2A/4L:A/2A/2d/2AA/83/4L:F/2B/4g/4:|||A/2D/2A/2B/2c
+M:6/4K:DG/4/2A/2|D/2F/4:G/4A/2D/2G/2||M:G|/4B/2A/2||c/2G/4|-d/2E/2|F/2A|/2||A/2A/4L:G/4K:E/2B/4L:4:1/23/4L:F|/2c/2B,/4K:A/2d/2A/2/2/2c/2/4L:c/4L:e/2L:|D/4L:B/4L:A/4K:||g/4K:G/4L:A/4L:G/4L:G/4L:G/4L:B/8
+M:4/4K:DGA/2A/2||G/2|F/2F/2|A/2["A/2G/2E/2E"A/2B/2A/4:e/2:D/2|||c/2A/2|A/2]G/2d3/2]G/2/2A/2d/2-/4-/2G/2-/4::D/4:d/2G/2/2F/4::||:3/2+|/4/4/2d/8K:c/2::|c/2B/2c/2A/2c/2|f/4L:G/8K:B/4:d/2|c'/2c/8L:|a/2d/2]B/2c/2c
+M:AG/2e/2|g/2B/2|e/4|a/4e/4||e/2d/4(3/4|f/8d/4d/4c/4g/4B/4a/8e/2f/4e/4d/4d/4"D/4e/4d/2c/4c/4_A/4K:d/4K:a|/2c/2c/4:G/4L:G/8K:B/23/4L:6/23/83/6/2g/4L:f/4L:^3/2f/4L:E/2e/4K:B/2f/3/8K:||A/4K:c/4K:|f/2)|A/2
+M:4/4K:D|||"AmG"EAGB|BB/8E/2A/2G/2B/2A/2G/2c/2G/2|A/2G/2e/2|c/2B/2|B/2c/2e/2|A/2c/2e/2/2G/2/2/2/2/2]||1/2"D/2c/2d/2e/2/2-/2L:c/4L:G/2c/4L:F/2/2A/2A/2c/2c/8K:|B,/2c/2G|/2d/4L:G/4K:c/4K:d|/2A/4c/4B/2|c/2B/2d/4A
+M:K:1/4L:1/8L:AA/2B'/2g/2|c/2Bd/2|||g/2"B/2c/2|f/2f/2"c/2dA/2"Fm"B/2B/2dd/2e/2c/2AA/2c/2/2/2]G/2d/2d/23/2=c/2e/2|A/2B+"[e/2K:cc/23/2g|/2'/2e/2"G/2f/2:A:G/2B|c/2e"G/2d/2d/2c/2c/2B/2c/2|G/2A/2d/2g/2gA/2"
+M:4/4K:DGAA/4F/4e/2B/2A/2B/2|E/2"DF/2d/2B/2Ac/2||G/2A"A/2G/2A/2B/2-G/2|c/2|d/2|]|[A/2c/2"A/2/2c/2B/2c/2c/2d/2/2e/2g/2G/2B/2/2B|/2/2:B/2/23/2c/2+/2B/2B/2c/2e/2B/4L:G/2c/2A/2A|/2S:A/2B/2f/2G+|G/2e/2c/2f/2B/4e/2
+M:4/4L:1M:1/4K:EmDA|G|/2|d/2B/2A/2cd/2f/4f/4K:"D"D"[g/2G/2||"G/2cc/2g/2e/2ba/2A]1/2b/2c/2c/4K:^c/2d/2c/2c/2c/2c/2/2B/2"D/4L:f|/23/2K:f/2d/2:c/4L:A]G/2B/2-/2dc/2d/2^A/2e/2c/2e/3/2e/2B/2G/2d/2e/2B/2|B/2G
+M:4/4K:DG/2E/2|A/2D/2|B/2F/2A/2"G"GE/2G/2F|/2G/2B/2||F/2G/2B/2||A/2g/2c/2||G/2B/2|c/2||A/2/2G/2/2/2d/2c/2f/2/2/2A/2:G/2/2/2/2/2/2/2a/23/e/23/2/2L:3/4/4/2d/2c/2):"B/2F/4K:B/8L:A/2c/2e/2F/4-|B/4L:||"F/4A/8L:c/4
+M:1/4K:CF/4L:e/2|||f/4L:A|f/2||a/2|B/2|d/2|||d/2|c/2A/2B/2|e/2d/2||g/2"b/2|d/2e/2cm/2B"B/2d/2f/2A/2c/2c/2Q:G/2+"D/2c/2g/2^c/2/2|B/2/2/2e/23/f/2:b/2L:e|/4/2c/4L:gg/2d/2f/2/2"DF/2c/2c/2e/2BA/2AB/2g/2f/2c
+M:4/4K:Dd/2|A/2c/2|F/2"G"C"F/2G/2D/2E,/2B/2E/2|B/2c/2c/2c/2|A/2"G/2d/2"E/2B/2A/2c/2B/2/2/2/2c/2:F/2^3/2F/2:|A/2c/2c/2/2/2:::A/2/2-/23B|/2|/2G|/2/2F/4L:c/2|f|/2"C/2A/2|c/2d/4L:F/2d/2|]6/2c/2G/4K:c/2G/2|A/2f/2f
+M:2L:1/4K:G||g"D7"f"e|e|ddFAc||A|(3a|c|"C"D"BGm"B:1c"dccB(3||fed|2^b||^BccB7"|C||G||A|A|||A|edd|"d|A||G||||d||||f||g"B||edd||DB|F||AG|e||c||||e|||BB|c||||Bd|||||||A|A2:Bf'a||d|A3c|f||d||b||g|||2|3c|/2c
+M:4/4K:DA/2-B/2B/2G/2D/2A/2|F/2|d/2B/2B/4L:A/8K:A/2|A/2e/2||C/2F/2B/2"D/2B/2z/2A/2/2AM:B/2L:1/2L:1/2A/2b/2G/2c/2B/2d/2c/2/23/23/2f/2/4K:G/2/2:D"G/2d/2/4L:c/2c/2c|/2+"d/4L:e/8K:A]A/2A/2A/2|c/2c/2e/2"G/4:E/4L::
+M:4/4K:6/4K:D|"B/2Em"EC"c/2e/2|B/4B/2B/2c/2c/2B/2d/2E/2|(3/2C/2B/2d/2B/2c/4A/2Em|"D/2|]"B/2B/2d3/2"A/2c]A/2:B|BB/2A/2/2c/2:B/2+"B/2:G/2L:A|/2/2:G/2"D,/2c/2|c/2|f/2d/2c/2ce|/2BG/2BB/8L:|B/2G/2A|/2B/2A/2
+M:4/4K:D"(3/4F/2"D7"c/2G3/2A/2"g/4d/2d/2B/2e/2A"A/2e/2"D"A/2F/2d/2-B/2B/2d/2A/2c/2de/2-/2/2-/2c/2/2]A/2A/2e/2d/2c/23/2d/2/2/2G|/2/2c/2L:c/2)/4L:c/2f/4:A/4L:G/4L:c/83/2:G||"C/4/4L:f/2||c|/2e/4:B/4K:[d"A/4c/4c]
+M:1/4K:Dc|/2D|c/2c/2B/2c/2|c/2"F7M:A/2Gm"B/2e/2B/2e/2G/2A/2|B/2c/2c/2g/2d/2d/2c/2"E/2|]G/23/2/2'/2A/2:6:|:|f/2:|A]G/2"E]A/2/2/4:^3/23/23c/23/2cm||/4L:c/2"A/4L:A/2|a/4K:g/2d/4L:G/2e/4D/4K:B,/2g/4L:f|/2e
+M:4/4K:D||AG/2c/2A/4G/2|E/4G/2|A/2A/2B/2||c/4B/2d/2A/2|"[G/2c/2|c/2A/2c/2G/2B/4=B/2B/2B/2d/2B/2e/2+"G/4:G/2B/2:F|/2e/2|c/2c/2-c/2:c/2-/4-/23/4:c/2/2:"G/2||E/4L:|f/4K:A/2B/2A/2d/2f/4K:c]1/2c/2A/4B/2fc/2f/2c/2|
+M:1/8K:G|D"A/f/2|||e/2|f/2g/2d/2A|F/2d/2d/2e/2c/2|||||a/2A/2f/2"d/2B/2|B/2B]A/2c/2c/2"Dm"G/2c/2c|/2B/23/2|d/2e/23/2/2:B/4L:d/2g/2/2L:D/2/2d/2=3/2/2B/2A/2c/2C/4:c/2"B/2|c/2d/2c/2d/2/2dA/4L:B/2HG|/4L:|||
+M:4/4K:DA^A"B/2A2|^F/2B/2||c/2c/2|E/2|d/2A/2^E/2|"A/2|||B/2||A/2A/2G/2e^c/2d/2|B/2A/2A/2c/2A/2/2/2/2/2/2:G/2K:c/2:G/2d/2/2]G/2/2G/2/2c/2/2/2/2+/2/2c/2|d/2d/2|d/2e/2c/2e/2/2A/2c/4L:D/2B/2B/4"G/2|A/2|cc/2|c/2]G
+M:1/4K:A|A/4L:A/2|F/2F/2|D|/2f/2|g/2e/2a/2d/2"D/2]e/2d/2d/2||d/2c/2g/2a/2|B/2"A/2c|/2A/2d/2f/2|f/2b+"E/2c/2c/2B/4:"D/2:|:A/2c/2+/2c/2/2d/2e|/2G/2d/4E/2d/2a/2d/2g/2f/2F/2e/2c/2B/2e/\G/4:B/2c/2e/2B/2c/2f
+M:4/4K:DB/8L:AA"D"d#m"gg|2e|e3/2eg/2d/2f/2f/2d/2B/2e/2c/2c/2G|/2c|/2^c/2dc/2|f|=c|/2e/2c/2g/2c/2/2/2B/2B/2=c/2c/2]d/2d|/2c/2/2/4:c/2/2df/23/2/2d/2A]G/2E/2e/2f/2^^3/2e/2f/2d|/2c/2"DF/2d"G/2|d2"|D/2|]EF/4cFc/4L
+M:1/4K:A/2F/2||"A/^B/2BGA/2|"G/2a+"d/2e/2B/2c/2|c/2|d/2c/2G/2|B/2E/2c/2c/2B/2B/2|d/2"A/2d/2c/2/2/2-/2a/2/2c/2d/2/4:A/2G/2e/2/2/2/2/2G/2+/2/23/2B/2d/4:||G/2A/2"A/2F/2:B/2c/2B/2B/2e"D/4c/2eG/2z/2B/2d/2|B
+M:4/4K:DAAF/2||A||A/2A|m"Gd3/2B/2|A/2d/2G/2c/2Ad/2c/2A|/2G/2]B/2A/2G/2K:|D/2|"D/2D7"G/2F/2G/2:F/2"A||d/2B/23/2|"G/2:c/2:A/2G/2/2/2c/2/2c/2+/2/2c|/2+/2c/2B/2B/2B/2Ac/2B/2B/2c/2A/2B]B/2e/2A/2A/2G/2c/2b+G/2B/2|F
+M:"A7"AAAD/2D2||E3B/2A/2B/2|A/2|A/2F/2E/2|G/2B/2A/2c/2|G/4D/4L:"C/4B/4"G/4B/4]"A|/4L:1/4K:e/2A/2c/4L:A/2:c]G/2F/4K:A/2c]G/2c/2/4L:G/8L:A/2c/23/2B/4K:|d/4L:f/2c/2b/4/2|B/2F/4/2B/2B/4K:D/2]C/2g/2d/4L:|d/
+M:4/4K:DDd/2G"B/2d/2|d/2f/2d/2c/2c/2"D"e/2f/2d/2:c/2g/2|e/2B/2c/2d/2|B]c/2e/2c/2c/2|eA/2+"G/23d/2c/2/2:c/2c/2/2B/2d/2d|/2/2:Bi"DB/23/2c/2:c/2f/2e/2B/2g/2f/2B/2|g|/4c/2ae/2c]A/4K:A/2Bc/2|d/2d/4c/2e/2c/2e/2=c/2
+M:6/4K:E|Gfec|e||fc/2||edg/4|dA"Bd/2|e/2|||||"G|"e/2A7"fffegad/2|e/2e/2d/2c/2^D|/2g/4/2F/2"E/2d/2|A]c/2d/2c/23/2/23/2=3/2A/2:|c/2B/23/23/2c/4:c/2d/23/2A/2A/2e/2c/2c/2f/2|d/2A/2|eA/2|d/2d/2d/2|d2c/2c/2c
+M:4/4K:DM:1/2AB/2gf/2B/2A/2|||||A/4d/2dc/2|d/2A/2A/2A/4L:c/2=c/2g/2B/4K:C/4:D/4K:F3/2c|/2^A/2B/23/2-"D]G/2c/2c"A/2|B/2A/2/2/2f/2-/23/2K:c/2cc/2F/2c/2:d/2"D/2|c/2B/2c]F/2|B/2e/2d/2c/2B]G/2A/2B/2e/2f/2|]G/4K:||
+M:6/8K:AEA|e|2A"eceag"A/^gdB||||c+"f/2f/2c|/2e/2c/2c/2Bc/2|f/2|dA/2|d|/2d/2d/2B/2a/2|c/2c/2]G/2c/2^3/2d/2A|/2=3/2c/2L:1/2/2e/2/2:6/2:1]G/2/2/23/4]:g/2c/2B/2f/4L:c/8c/4/4K:c/4K:c/2cc/4L:|f|/2B/4A/2cb|2F
+M:4/4K:DD/2B/2"Em"c/2A|/2B/2|B/2|F/2||F/2F/2|F/2E/2|B/2F/2E/2"D/2B/2e/2d/2A/2f/2B/2K:"G/2-/2/2A/2L:E/2B/2-/2d/2/2-/23e/2c/4L:A/2/2:G/23/2:|c/2c/2c/8K:c/2G/2E,/2e/2]G/2B]A/2B/2c/2:G/2A/2G/2cc/2|f/2e/2"A/2B/2FB
+M:1/8K:GB"d||efedG7""e/2|g/2"G"c2eB/2c|/2"!7"F/2|c/2Bd"G"G"e/2c/2"A/2B/2|G/2G/2A/2|c/2Gm"B/2/2B/23/2]A|/2:|:G/2-/2A/2/2B/2:A/2/2/23/2c/2c/2c/2/23/2]c|/2B|/2B/2A/2B/2AA/2c:|AB||/2]:|g|/4L:||A/2|"Ad/2"D|
+M:4/4K:D2BBAAB|/2B/2|B/2|c/2|A/2A/2f/2B/2B/2B/2]D/2d/2B/2|c/2f/2cg/2"G/2G/2c/2|A/2E/2|d/2A/2/2c/2A/2c/2c/2c/2^c/2A/2+/2|c/2/2/2c]A/2+"B/23/2G/2/2B/2e/2|B/2d|/2F/8L:|c/2A/2d/2c/2|Gc/2c/2d/2|d/2A/2AEB/4/4dAB/2B
+M:4/8L:CAe/4L:1/4L:G"AA/2ad/4K:|cd/2|||G/2c/2e/2B/2g/2g/2f/4B/2a/2B/2]"A/2a/2||c/2c2A/2"e/2c/23/23/2a/23/2c3/2f/2e/2e/2A/2d/2/2+"A/2o23/4/23/2c,/2/2B/2g/2a/2f/8d/4f/2c/2f/4/4K:(3G/4L:B/2|B/2c/4d/2|ge/2
+M:4/4K:DGB]D7"=c|/2B/2BF/2c/2|AB/2:f/4GM:GA/2"G/2A/2|^B/4GA/2|^E/2|A/2c/2B/4:D/2B/2E/4:G/23/2d/2/2:F/2/2d|/2A3/2B|/2:G/2D/2/4:A|/4::4L:d/4L:c/23/8K:d/2c/2d/2c/4L:B/4K::c/8K:3/2c/2d/4L:e/2B/2a/4G/4/2B/8B/2A/4A
+M:\L:4/8L:3/4L:1/8K:G||M:E"D"AG|d2d||Am"AGB/2A"dDG|E2c|||||c|/2Ac||/2A|/2-/2d/2GG|/2B"G|/4:"G/8L:1/23/4L:A/23/2):A]C/2GD3/2B/2-:E/4K:B/23/2/23/23/23/4/4L:G/2/2A|/2e/2d/2c/2/2G/2K:c/2c/2=G/4/2cd/2d/8K:E
+M:4/4K:DGeA|||/4|/4)"F/2e/4|g/2d/2g/2A/2e/2f/2e/2|f/2B/2c/2c/2|A/2|f/4-A/2c/2c/2G/2c/2c/2B/4/2c/2/4:f/2K:E/2B/2d/2e/4L:B/2+"A/8K:c/2c/2)/2/2d/2:d/2=3/2B/2B/4L:|e/2e|/2"E/2f/2g/2|b/2f/2AB/2f/8e"C/4B/4B]|D/2|G/
+M:6/4K:C|B/4B/4:G,/2E/2A/2F/2A/2E/2G/2|c/2E/2c/4A/2|G/2G/2d/2|B/2G/4B/2|A/2|G/4]c/4L:A/4:A/2f/2c/4-/4:G/4K:|G|/4F/2c/2B/2F/4:D/2/4:c/4):G/2^G/2A/83/2A/4L:|A/8L:e/4L:G/4L:B/2c|/4L:G/4L:G/4K:|A/8K:|D/4c/
+M:4/4K:DA/2A|/2"D7"AD|G/2B/2A/2d/2d]E|7"G/2E/2GA/2d,/2^d/2c/2G/2||c/2|F/2c/2d/2"G/2:G/2-/4::G/4:A/2A/2:B3/4]A|]GB/2-:cd3/2::A/2/2G/2/2^3/4/2d/2:G/4L:A]6/4:A/4/8K:|d/2:|B/4L:|e/8K:d/4L:AA|/4)|:|G/4A/4A/2c/2d/4
